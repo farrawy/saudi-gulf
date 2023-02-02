@@ -23,7 +23,7 @@ const about = [
 
 const About = () => {
   return (
-    <div className='p-6 bg-background'>
+    <div className='sm:px-48 sm:py-10 p-10 bg-background'>
       <SectionTitle title='About Us' />
       <div className='flex flex-col sm:flex-row sm:justify-center '>
         <div className='about-header sm:w-full md:ml-[50%] m-6 flex flex-col'>

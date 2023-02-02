@@ -59,22 +59,6 @@ function ImageSlider() {
         </div>
       </div>
 
-      {/* <div className='absolute bottom-0 right-0'>
-        <button
-          className='text-2xl text-background hover:bg-gold bg-white duration-300'
-          style={{ width: '3rem', height: '3rem' }}
-          onClick={handlePrev}
-        >
-          &lt;
-        </button>
-        <button
-          className='text-2xl text-background hover:bg-gold bg-white duration-300'
-          style={{ width: '3rem', height: '3rem' }}
-          onClick={handleNext}
-        >
-          &gt;
-        </button>
-      </div> */}
 
       <ButtonGroup
         variant='text'
