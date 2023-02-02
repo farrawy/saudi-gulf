@@ -1,0 +1,46 @@
+.image-slider {
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .image-slider {
+    height: 60vh;
+  }
+}
+
+/* Change the background color of the scrollbar */
+::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #333333;
+}
+
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #b8860b;
+}
+
+.my-image {
+  image-rendering: optimizeQuality;
+}
+
+@media (min-width: 768px) {
+  .about-box {
+    width: 50%;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-header {
+    width: 50%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-header {
+    width: 40%;
+  }
+}
