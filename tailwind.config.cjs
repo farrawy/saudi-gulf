@@ -14,6 +14,7 @@ module.exports = withMT({
         'error-red': '#FF0000',
         'error-orange': '#FFA500',
         'dark-gold': '#B8860B',
+        'dark-gold-hover': '#DAA520',
       },
     },
   },

@@ -53,12 +53,11 @@ function ImageSlider() {
           <p className='text-black mb-4 w-full sm:w-2/3 md:w-2/3 sm:text-lg text-base font-light  '>
             {images[currentIndex].subheader}
           </p>
-          <button className='text-white bg-background px-6 py-3 w-40 duration-300 hover:bg-gold hover:text-black rounded '>
+          {/* <button className='text-white bg-background px-6 py-3 w-40 duration-300 hover:bg-gold hover:text-black rounded '>
             {images[currentIndex].buttonText}
-          </button>
+          </button> */}
         </div>
       </div>
-
 
       <ButtonGroup
         variant='text'
